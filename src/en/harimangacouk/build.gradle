@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'eu.kanade.tachiyomi.extension.en.harimangacouk'
+
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+    }
+}
+
+dependencies {
+    implementation project(':lib-multisrc:madara')
+}
